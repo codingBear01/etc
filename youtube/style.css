@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  background: none;
+  border: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #202020;
+  color: white;
+  padding: 10px 8px;
+}
+
+.nav__logo i {
+  color: #ff0000;
+}
+
+iframe {
+  width: 100%;
+}
+
+.video__information {
+  padding: 15px;
+}
+
+.video__hashtags {
+  color: rgb(30, 174, 223);
+  padding: 10px 0;
+}
+
+.video__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video__title_bar h2 {
+  padding-bottom: 10px;
+}
+
+.video__title_bar h6 {
+  padding-bottom: 10px;
+}
+
+.video__title i {
+  margin-bottom: 80px;
+}
+
+.video__icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  padding: 10px 0;
+}
+
+.video__icons_btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  color: rgb(126, 126, 126);
+}
+
+.video__icons_btn span {
+  color: rgb(126, 126, 126);
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.video__icons div:first-child {
+  color: rgb(2, 83, 192);
+}
+
+.video__subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid rgb(203, 203, 203);
+  border-bottom: 1px solid rgb(203, 203, 203);
+  padding: 10px 0;
+}
+
+.subscribe__channel {
+  display: flex;
+}
+
+.subscribe__channel img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+}
+
+.subscribe__channelName {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20px;
+}
+
+.subscribe__channel span:last-child {
+  color: rgb(126, 126, 126);
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.subscribe__subBtn {
+  text-transform: uppercase;
+  color: #cc0000;
+}
+
+.upNext {
+  padding: 15px;
+  padding-top: 0;
+}
+
+.upNext ul {
+  margin-top: 10px;
+}
+
+.upNext .item {
+  display: flex;
+}
+
+.upNext .item .img {
+  margin-right: 15px;
+  flex: 1 1 35%;
+}
+
+.upNext .item .img img {
+  width: 100%;
+}
+
+.upNext .item .info {
+  flex-direction: column;
+  display: flex;
+  flex: 1 1 65%;
+}
+
+.upNext .item i {
+  flex: 1 1 5%;
+}
+
+.infoAndupNext {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .infoAndupNext {
+    flex-direction: row;
+  }
+}
+
+.video__mainTitle.clamp {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
