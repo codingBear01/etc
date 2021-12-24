@@ -1,0 +1,5 @@
+21/12/06~ 
+
+!!!Creating Chrome T-Rex Game!!!
+
+JS는 코드 입력 시 대소문자 구별
