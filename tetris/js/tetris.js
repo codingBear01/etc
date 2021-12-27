@@ -25,16 +25,6 @@ const movingItem = {
   left: 3,
 };
 
-function showGameoverText() {
-  gameOver.style.display = "flex";
-}
-
-restartButton.addEventListener("click", () => {
-  gameOver.style.display = "none";
-  playground.innerHTML = "";
-  init();
-});
-
 function showStartImg() {
   gameStart.classList.toggle("active");
 }
@@ -198,4 +188,13 @@ document.addEventListener("keydown", (e) => {
     default:
       break;
   }
+});
+
+function showGameoverText() {
+  gameOver.style.display = "flex";
+}
+
+restartButton.addEventListener("click", () => {
+  gameOver.style.display = "";
+  playground.innerHTML = "";
 });

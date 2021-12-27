@@ -1,0 +1,19 @@
+li {
+  list-style: none;
+}
+
+ul {
+  display: flex;
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin-right: 10px;
+  color: white;
+  font-size: 25px;
+}
